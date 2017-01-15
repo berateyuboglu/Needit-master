@@ -27,6 +27,8 @@ public class ForgetPassword extends AppCompatActivity {
         email=(EditText)findViewById(R.id.uyeEmail);
         yeniParolaGonder=(Button)findViewById(R.id.yeniParolaGonder);
 
+
+
         //FirebaseAuth sınıfının referans olduğu nesneleri kullanabilmek için getInstance methodunu kullanıyoruz.
         auth = FirebaseAuth.getInstance();
 
